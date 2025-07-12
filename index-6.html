@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Player | نسخه پلاس</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Server Player Logo" class="logo">
+
+        <h1>🎮 به سرور پلیر خوش آمدید!</h1>
+        <p class="intro">🔥 با تهیه نسخه پلاس، امکانات ویژه‌ای دریافت می‌کنید</p>
+
+        <button class="vip-button" onclick="scrollToVip()">✅️ وی ای پی ✅️</button>
+    </div>
+
+    <div id="vip-section" class="vip-section">
+        <h2>🎁 امکانات نسخه پلاس:</h2>
+        <ul>
+            <li>✅️ رفتن به قسمت 《VIP》 به‌صورت نامحدود</li>
+            <li>✅️ دریافت کیت ندرایتی با شمشیر، کلنگ و تبر</li>
+            <li>✅️ دریافت الایترا و فایرورک برای چرخش در مپ</li>
+            <li>✅️ افزودن ۱۰ عدد جان به پلیر</li>
+            <li>و...</li>
+        </ul>
+
+        <!--
+            لینک زرین‌پال:
+            1) به داشبورد زرین‌پال برو، بخش "درگاه پرداخت اختصاصی".
+            2) یک "لینک پرداخت" بساز.
+            3) لینک ساخت‌شده را جایگزین مقدار href پایین کن.
+        -->
+        <a href="https://zarinp.al/XXXXXXXX" class="buy-button">💳 خرید نسخه پلاس</a>
+    </div>
+
+    <script>
+        function scrollToVip() {
+            document.getElementById("vip-section").scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
